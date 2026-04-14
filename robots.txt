@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /store.html/
+Allow: /
+Sitemap: https://blog.yeqing.net/sitemap.xml
