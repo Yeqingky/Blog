@@ -685,13 +685,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yeqing.net/tags/AndNode/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yeqing.net/tags/Geelinx/</loc>
     <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -854,6 +847,13 @@
   
   <url>
     <loc>https://blog.yeqing.net/tags/AI/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yeqing.net/tags/AndNode/</loc>
     <lastmod>2026-04-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
