@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1" theme-name="Stellar" theme-version="1.33.1">
-  <link rel="canonical" href="https://blog.yeqing.net/archives/201/">
-  
+  <link rel="canonical" href="https://blog.yeqing.net/tags/incudal/">
+  <meta name="robots" content="noindex,follow">
   <meta name="generator" content="Hexo 8.1.1">
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   
@@ -17,30 +17,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>使用 MCSM 和 Docker 在 Linux 上运行 ToolDelta - 夜轻 Blog</title>
+  <title>标签：incudal - 夜轻 Blog</title>
 
   
-    <meta name="description" content="以 Debian 12 为例 使用 MCSManager 和 Docker 从 0 开始搭建 ToolDelta 面板">
-<meta property="og:type" content="article">
-<meta property="og:title" content="使用 MCSM 和 Docker 在 Linux 上运行 ToolDelta">
-<meta property="og:url" content="https://blog.yeqing.net/archives/201/">
+    <meta name="description" content="分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署、ToolDelta等技术教程与实践经验的个人技术博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="夜轻 Blog">
+<meta property="og:url" content="https://blog.yeqing.net/tags/incudal/">
 <meta property="og:site_name" content="夜轻 Blog">
-<meta property="og:description" content="以 Debian 12 为例 使用 MCSManager 和 Docker 从 0 开始搭建 ToolDelta 面板">
+<meta property="og:description" content="分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署、ToolDelta等技术教程与实践经验的个人技术博客">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://list.yppp.net/d/cos/yeqing.webp">
-<meta property="article:published_time" content="2025-07-06T08:11:34.000Z">
-<meta property="article:modified_time" content="2025-12-21T11:21:34.000Z">
 <meta property="article:author" content="夜轻">
-<meta property="article:tag" content="Docker">
-<meta property="article:tag" content="Mcsmanager">
+<meta property="article:tag" content="CDN优化">
 <meta property="article:tag" content="ToolDelta">
-<meta property="article:tag" content="教程">
-<meta name="twitter:card" content="summary_large_image">
+<meta property="article:tag" content="yeqing">
+<meta property="article:tag" content="yeqingky">
+<meta property="article:tag" content="个人博客">
+<meta property="article:tag" content="内网穿透">
+<meta property="article:tag" content="夜轻">
+<meta property="article:tag" content="夜轻ky">
+<meta property="article:tag" content="实践经验">
+<meta property="article:tag" content="容器化部署">
+<meta property="article:tag" content="技术博客">
+<meta property="article:tag" content="技术教程">
+<meta property="article:tag" content="服务器部署">
+<meta property="article:tag" content="网络技术">
+<meta property="article:tag" content="静态网站">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://list.yppp.net/d/cos/yeqing.webp">
   
   
   
-  <meta name="keywords" content="Docker,教程,ToolDelta,Mcsmanager">
+  <meta name="keywords" content="夜轻,夜轻ky,yeqingky,yeqing,个人博客,技术博客,网络技术,服务器部署,内网穿透,静态网站,CDN优化,容器化部署,技术教程,实践经验,ToolDelta">
 
   <!-- feed -->
   
@@ -56,7 +65,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"夜轻","sameAs":[],"image":"https://list.yppp.net/d/cos/yeqing.webp"},"dateCreated":"2025-07-06T16:11:34+08:00","dateModified":"2025-12-21T19:21:34+08:00","datePublished":"2025-07-06T16:11:34+08:00","description":"以 Debian 12 为例 使用 MCSManager 和 Docker 从 0 开始搭建 ToolDelta 面板","headline":"使用 MCSM 和 Docker 在 Linux 上运行 ToolDelta","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.yeqing.net/archives/201/"},"publisher":{"@type":"Organization","name":"夜轻","sameAs":[],"image":"https://list.yppp.net/d/cos/yeqing.webp","logo":{"@type":"ImageObject","url":"https://list.yppp.net/d/cos/yeqing.webp"}},"url":"https://blog.yeqing.net/archives/201/","keywords":"Docker, 教程, ToolDelta, Mcsmanager","thumbnailUrl":"https://list.yppp.net/d/oss/image/i/2025/07/06/ef24e25e0e6fa80ff562825c5d45aa1a.webp","image":1}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Website","@id":"https://blog.yeqing.net","author":{"@type":"Person","name":"夜轻","sameAs":[],"image":"https://list.yppp.net/d/cos/yeqing.webp"},"name":"夜轻 Blog","description":"分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署、ToolDelta等技术教程与实践经验的个人技术博客","url":"https://blog.yeqing.net"}</script>
   <link rel="preconnect" href="https://cdn.jsdmirror.com" crossorigin><link rel="preconnect" href="https://list.yppp.net" crossorigin><link rel="stylesheet" href="https://list.yppp.net/d/cos/dist/font/LXGWWenKai-Regular/result.css" media="print" onload="this.media='all'" ><script defer src="https://umami.yppp.net/script.js" data-website-id="fbd23f85-0ffa-477f-8964-1668a624e5c7"></script><script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -68,7 +77,7 @@
 </head>
 <body>
 
-<div class="l_body content" id="start" layout="post" type="tech" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
+<div class="l_body index" id="start" layout="undefined" type="undefined" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://cdn.jsdmirror.com/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://list.yppp.net/d/cos/yeqing.webp" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdmirror.com/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">夜轻 Blog</div><div class="sub normal cap">一个人</div><div class="sub hover cap" style="opacity:0"> Ciallo～(∠・ω< )⌒☆</div></a></div></header>
@@ -80,145 +89,28 @@
 <div class="widgets">
 <div class="search-wrapper" id="search-wrapper"><form class="search-form"><a class="search-button" onclick="document.getElementById(&quot;search-input&quot;).focus();"><svg t="1705074644177" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1560" width="200" height="200"><path d="M1008.839137 935.96571L792.364903 719.491476a56.783488 56.783488 0 0 0-80.152866 0 358.53545 358.53545 0 1 1 100.857314-335.166073 362.840335 362.840335 0 0 1-3.689902 170.145468 51.248635 51.248635 0 1 0 99.217358 26.444296 462.057693 462.057693 0 1 0-158.255785 242.303546l185.930047 185.725053a51.248635 51.248635 0 0 0 72.568068 0 51.248635 51.248635 0 0 0 0-72.978056z" p-id="1561"></path><path d="M616.479587 615.969233a50.428657 50.428657 0 0 0-61.498362-5.534852 174.655348 174.655348 0 0 1-177.525271 3.484907 49.403684 49.403684 0 0 0-58.833433 6.76482l-3.074918 2.869923a49.403684 49.403684 0 0 0 8.609771 78.10292 277.767601 277.767601 0 0 0 286.992355-5.739847 49.403684 49.403684 0 0 0 8.404776-76.667958z" p-id="1562"></path></svg></a><input type="text" class="search-input" id="search-input" placeholder="站内搜索"></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div>
 
-
-
 <widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="RSS" href="/atom.xml"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.412-.587T3 19q0-.825.588-1.412T5 17q.825 0 1.413.588T7 19q0 .825-.587 1.413T5 21m13.5 0q-.65 0-1.088-.475T16.9 19.4q-.275-2.425-1.312-4.537T12.9 11.1q-1.65-1.65-3.762-2.687T4.6 7.1q-.65-.075-1.125-.512T3 5.5q0-.65.45-1.062t1.075-.363q3.075.275 5.763 1.563t4.737 3.337q2.05 2.05 3.338 4.738t1.562 5.762q.05.625-.363 1.075T18.5 21m-6 0q-.625 0-1.075-.437T10.85 19.5q-.225-1.225-.787-2.262T8.65 15.35q-.85-.85-1.888-1.412T4.5 13.15q-.625-.125-1.062-.575T3 11.5q0-.65.45-1.075t1.075-.325q1.825.25 3.413 1.063t2.837 2.062q1.25 1.25 2.063 2.838t1.062 3.412q.1.625-.325 1.075T12.5 21"/></svg></a></div><div class="widget-body fs14"><a class="item title" href="/incudal-Phoenix-Sata-SSD/"><span class="title">[incudal] 美国凤凰城 SATA SSD 小杯鸡</span></a><a class="item title" href="/acg-api/"><span class="title">随机二次元图片API文档</span></a><a class="item title" href="/archives/38/"><span class="title">使用 ClawRun 0 成本搭建 Alist</span></a><a class="item title" href="/bt-cloudreve-v4/"><span class="title">使用宝塔面板部署 Cloudreve V4</span></a><a class="item title" href="/archives/219/"><span class="title">借助 DDNS-Go 使用家宽 IPv6 套 CDN 建站</span></a><a class="item title" href="/archives/200/"><span class="title">安装 Docker 并配置加速源</span></a><a class="item title" href="/free-mirror/"><span class="title">分享一些加速源/镜像源</span></a><a class="item title" href="/Windows-ToolDelta/"><span class="title">在 Windows 部署 ToolDelta</span></a><a class="item title" href="/AndNode-hk-standard/"><span class="title">[AndNode] 香港云-标准型 50Mbps</span></a><a class="item title" href="/hudiyun-de-99/"><span class="title">[狐蒂云]德国8C8G 1Gbps 99两年付</span></a></div></widget>
 </div>
 <footer class="footer dis-select"><div class="social-wrap"><a class="social" title="主页" href="https://www.yeqing.net/" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://list.yppp.net/d/cos/dist/svg/home.svg"/></a><a class="social" title="Github" href="https://github.com/Yeqingky" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://list.yppp.net/d/cos/dist/svg/github.svg"/></a><a class="social" title="邮箱" href="mailto:me@yeqingky.com" rel="noopener noreferrer"><img src="https://list.yppp.net/d/cos/dist/svg/email.svg"/></a><a class="social" title="探针" href="https://www.komari.top/" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://list.yppp.net/d/cos/dist/svg/tz.svg"/></a></div></footer>
 </div></aside><div class="l_main" id="main">
 
+<header class="header mobile-only"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://cdn.jsdmirror.com/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://list.yppp.net/d/cos/yeqing.webp" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdmirror.com/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">夜轻 Blog</div><div class="sub normal cap">一个人</div><div class="sub hover cap" style="opacity:0"> Ciallo～(∠・ω< )⌒☆</div></a></div></header>
+
+ 
 
 
 
 
-<div class="article banner top">
-  <div class="content">
-    <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
-<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-07-06T08:11:34.000Z">2025-07-06</time></span><span class="sep updated"></span><span class="text updated">最近更新于：<time datetime="2025-12-21T11:21:34.000Z">2025-12-21</time></span></div></div></div>
-    
-    <div class="bottom only-title">
-      
-      <div class="text-area">
-        <h1 class="text title"><span>使用 MCSM 和 Docker 在 Linux 上运行 ToolDelta</span></h1>
-        
-      </div>
-    </div>
-    
-  </div>
-  </div><article class="md-text content"><p>以 Debian 12 为例 使用 MCSManager 和 Docker 从 0 开始搭建 ToolDelta 面板</p>
-<span id="more"></span>
-
-<div class="tag-plugin colorful note" color="red"><div class="title">重要提示</div><div class="body"><p>禁止在我的世界官方群聊发布任何有关 ToolDelta 内容.</p></div></div>
-
-<p>ToolDelta 项目地址: <a target="_blank" rel="noopener" href="https://github.com/ToolDelta-Basic/ToolDelta">ToolDelta-Basic&#x2F;ToolDelta</a></p>
-<h4 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h4><h5 id="安装-MCSM"><a href="#安装-MCSM" class="headerlink" title="安装 MCSM"></a>安装 MCSM</h5><p>项目地址: <a target="_blank" rel="noopener" href="https://github.com/MCSManager/MCSManager">MCSManager&#x2F;MCSManager</a><br>官网地址: <a target="_blank" rel="noopener" href="https://www.mcsmanager.com/">https://mcsmanager.com</a></p>
-<p>使用 ssh 连接到服务器后 先更新软件源 养成好习惯!</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br></pre></td></tr></table></figure>
-
-<p>在 MCSM 官网复制安装命令</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> su -c <span class="string">&quot;wget -qO- https://script.mcsmanager.com/setup_cn.sh | bash&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>看到如下提示 就代表安装成功了!!!</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:518/247;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/3d7cd7cccc6659055d3f3647493b4544-0.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/3d7cd7cccc6659055d3f3647493b4544-0.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>完成安装后 使用你的<code>IP</code>加上<code>:23333</code> 访问 MCSM 面板</p>
-<p>点击<code>开始使用</code></p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1654/1115;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/e54d72c8021c43d4ce0dc834b7a534e3-0.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/e54d72c8021c43d4ce0dc834b7a534e3-0.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>设置管理员用户名和密码 务必记住</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1657/1116;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/ac13a09fa6698e5361813600a1ad5136.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/ac13a09fa6698e5361813600a1ad5136.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>完成登录后 我们要开始准备 ToolDelta 的 Docker 镜像了</p>
-<h5 id="安装-Docker"><a href="#安装-Docker" class="headerlink" title="安装 Docker"></a>安装 Docker</h5><p>安装 Docker 参考这篇文章: <a href="/archives/200/">https://blog.yeqing.net/archives/200/</a></p>
-<h5 id="Docker-镜像"><a href="#Docker-镜像" class="headerlink" title="Docker 镜像"></a>Docker 镜像</h5><p>二选一 不需要两个都做</p>
-<h6 id="拉取镜像"><a href="#拉取镜像" class="headerlink" title="拉取镜像"></a>拉取镜像</h6><p>ToolDelta 官方目前提供了 Docker 镜像 可以直接拉取使用 如果不了解 Docker 直接输入下方命令即可 跳过下方的手动构建教学 从<a href="/archives/201/#%E5%88%9B%E5%BB%BA%E9%9D%A2%E6%9D%BF%E5%AE%9E%E4%BE%8B">创建面板实例</a>继续.</p>
-<p>拉取镜像</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker pull crpi-6pmrt6su7uwffyo4.cn-shanghai.personal.cr.aliyuncs.com/tooldelta/tooldelta:latest</span><br></pre></td></tr></table></figure>
-
-<p>此处的镜像可能失效 参见<a target="_blank" rel="noopener" href="https://wiki.tooldelta.top/use/learn_use#%E4%B8%8B%E8%BD%BD-tooldelta">官方 Wiki</a></p>
-<p>如果使用这种方式 请在后续创建面板中 使用<code>crpi-6pmrt6su7uwffyo4.cn-shanghai.personal.cr.aliyuncs.com/tooldelta/tooldelta:latest</code>作为镜像</p>
-<h6 id="手动构建"><a href="#手动构建" class="headerlink" title="手动构建"></a>手动构建</h6><p>先使用<code>git</code>拉取 ToolDelta 仓库<br>找到一个喜欢的目录 我喜欢<code>/opt</code><br>先 cd 到目标目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /opt</span><br></pre></td></tr></table></figure>
-
-<p>拉取仓库</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> git <span class="built_in">clone</span> https://github.com/ToolDelta-Basic/ToolDelta.git</span><br></pre></td></tr></table></figure>
-
-<p>拉取完成后 会提示如下</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:815/190;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/767d2d857b1056a0f0a902a1014a3b56.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/767d2d857b1056a0f0a902a1014a3b56.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>cd 到 ToolDelta 目录</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ./ToolDelta</span><br></pre></td></tr></table></figure>
-
-<p>使用下方命令 构建 Docker 镜像<br><code>tooldelta:latest</code>可以自定义为任何标签 但如果你是新手 请不要更改</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> docker build -t tooldelta:latest .</span><br></pre></td></tr></table></figure>
-
-<p>耐心等待构建完成 完成后 你将看到如下内容</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:817/295;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/88c6680bdc7a5b448919de312e1de0a0.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/88c6680bdc7a5b448919de312e1de0a0.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<h5 id="创建面板实例"><a href="#创建面板实例" class="headerlink" title="创建面板实例"></a>创建面板实例</h5><p>接下来 在 MCSM 面板上 创建实例&#x2F;面板就可以使用 ToolDelta 了</p>
-<p>点击<code>应用实例</code> 点击<code>新建应用</code></p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1655/1118;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/8808ed379317fab19c5ca26a88d6fb30.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/8808ed379317fab19c5ca26a88d6fb30.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>选择最后一个</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1655/1119;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/8e7d9db194c5bf219319075f5b1dccc7.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/8e7d9db194c5bf219319075f5b1dccc7.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>选择要部署的机器 如果你是纯新手 且按教程部署 这里应该只有一个</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1648/1115;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/75adcff71fe77d4e1ae057c54b96dc17.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/75adcff71fe77d4e1ae057c54b96dc17.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>选择第一个</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1655/1119;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/9ebe0a5db733253cd928ac9f3891bc29.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/9ebe0a5db733253cd928ac9f3891bc29.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>接下来 修改以下三处</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1638/1121;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/0a763955ab0ea718cf6dcc89129fc3d1.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/0a763955ab0ea718cf6dcc89129fc3d1.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-<p><code>实例名称</code>:随便填<br><code>镜像名称</code>:tooldelta:latest<br><code>数据目录</code>:&#x2F;app</p>
-<p>最后 点击创建实例 就完成了</p>
-<p>让我们试试能不能正常使用</p>
-<div class="tag-plugin image"><div class="image-bg" style="aspect-ratio:1643/1108;"><img class="lazy" src="https://list.yppp.net/d/oss/image/i/2025/07/06/63822ecad2ae37d5adaa4f236b7263f9.png" data-src="https://list.yppp.net/d/oss/image/i/2025/07/06/63822ecad2ae37d5adaa4f236b7263f9.png" data-fancybox="true"onerror="this.src=&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2rem' height='2rem' viewBox='0 0 24 24'%3E%3C!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --%3E%3Cpath fill='%23F44336' d='M22 12.698c-.002 1.47-.013 2.718-.096 3.743c-.097 1.19-.296 2.184-.74 3.009a4.2 4.2 0 0 1-.73.983c-.833.833-1.893 1.21-3.237 1.39C15.884 22 14.2 22 12.053 22h-.106c-2.148 0-3.83 0-5.144-.177c-1.343-.18-2.404-.557-3.236-1.39c-.738-.738-1.12-1.656-1.322-2.795c-.2-1.12-.236-2.512-.243-4.241Q1.999 12.737 2 12v-.054c0-2.148 0-3.83.177-5.144c.18-1.343.557-2.404 1.39-3.236s1.893-1.21 3.236-1.39c1.168-.157 2.67-.175 4.499-.177a.697.697 0 1 1 0 1.396c-1.855.002-3.234.018-4.313.163c-1.189.16-1.906.464-2.436.994S3.72 5.8 3.56 6.99C3.397 8.2 3.395 9.788 3.395 12v.784l.932-.814a2.14 2.14 0 0 1 2.922.097l3.99 3.99a1.86 1.86 0 0 0 2.385.207l.278-.195a2.79 2.79 0 0 1 3.471.209l2.633 2.37c.265-.557.423-1.288.507-2.32c.079-.972.09-2.152.091-3.63a.698.698 0 0 1 1.396 0' opacity='.5'/%3E%3Cpath fill='%23F44336' fill-rule='evenodd' d='M17.5 11c-2.121 0-3.182 0-3.841-.659S13 8.621 13 6.5s0-3.182.659-3.841S15.379 2 17.5 2s3.182 0 3.841.659S22 4.379 22 6.5s0 3.182-.659 3.841S19.621 11 17.5 11m-1.47-7.03a.75.75 0 1 0-1.06 1.06l1.47 1.47l-1.47 1.47a.75.75 0 0 0 1.06 1.06l1.47-1.47l1.47 1.47a.75.75 0 1 0 1.06-1.06L18.56 6.5l1.47-1.47a.75.75 0 0 0-1.06-1.06L17.5 5.44z' clip-rule='evenodd'/%3E%3C/svg%3E&quot;"/><div class="lazy-icon" style="background-image:url(https://list.yppp.net/d/cos/dist/svg/eos-icons_three-dots-loading.svg);"></div></div></div>
-
-<p>完成 !</p>
-</article>
-<div class="article-footer">
-    <section id="license">
-      <div class="header"><span>许可协议</span></div>
-      <div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
-</div>
-    </section>
-    
-
-</div>
-
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/archives/219/">借助 DDNS-Go 使用家宽 IPv6 套 CDN 建站</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/archives/200/">安装 Docker 并配置加速源</a></div></section></div>
-
-
-
-
-  <div class="related-wrap md-text" id="comments">
-    <section class='header cmt-title cap theme'>
-      <p>快来参与讨论吧~</p>
-
-    </section>
-    <section class='body cmt-body giscus'>
-      
-
-<svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg>
-
-<div id="giscus" src="https://giscus.app/client.js" data-repo="Yeqingky/giscus" data-repo-id="R_kgDOQkPPAg" data-category="Announcements" data-category-id="DIC_kwDOQkPPAs4CzgCf" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" data-loading="lazy" crossorigin="anonymous"></div>
-
-    </section>
-  </div>
-
+<div class="navbar top"><div class="navbar-blur"><div class="navbar-container"><nav class="post"><a href="/">近期发布</a><a href="/categories/">分类</a><a class="active" href="/tags/">标签：incudal</a><a href="/archives/">归档</a></nav></div></div></div>
+<div class="post-list post"><div class="post-card-wrap"><a class="post-card post" href="/incudal-Phoenix-Sata-SSD/">
+<article class="md-text"><h2 class="post-title">[incudal] 美国凤凰城 SATA SSD 小杯鸡</h2><div class="excerpt"><p>本文记录了 incudal 美国凤凰城 SATA SSD 小杯鸡的基础配置与实测结果, 包括 4 核 Intel Xeon E5-2690 v4、4GB 内存、100GB 硬盘、10Gbps 带宽、2TB 双向流量、IPv4 NAT 10 端口与 IPv6 配置, 以及优惠后 6.6&#x2F;月的价格信息, 并附上 NodeQuality 的基础信息、IP 质量、网络质量和回程路由测试图, 便于快速了解这台 VPS 的整体情况.(AI摘要总结)</p></div><div class="meta cap"><span class="cap" id="post-meta"><svg style="margin-bottom:2px" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.94 2c.416 0 .753.324.753.724v1.46c.668-.012 1.417-.012 2.26-.012h4.015c.842 0 1.591 0 2.259.013v-1.46c0-.4.337-.725.753-.725s.753.324.753.724V4.25c1.445.111 2.394.384 3.09 1.055c.698.67.982 1.582 1.097 2.972L22 9H2v-.724c.116-1.39.4-2.302 1.097-2.972c.697-.67 1.645-.944 3.09-1.055V2.724c0-.4.337-.724.753-.724"/><path fill="currentColor" d="M22 14v-2c0-.839-.004-2.335-.017-3H2.01c-.013.665-.01 2.161-.01 3v2c0 3.771 0 5.657 1.172 6.828C4.343 22 6.228 22 10 22h4c3.77 0 5.656 0 6.828-1.172C22 19.658 22 17.772 22 14" opacity=".5"/><path fill="currentColor" d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"/></svg><time datetime="2026-04-18T10:44:33.000Z">2026-04-18</time></span><span class="cap breadcrumb"><svg style="margin-bottom:1px" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M2 6.95c0-.883 0-1.324.07-1.692A4 4 0 0 1 5.257 2.07C5.626 2 6.068 2 6.95 2c.386 0 .58 0 .766.017a4 4 0 0 1 2.18.904c.144.119.28.255.554.529L11 4c.816.816 1.224 1.224 1.712 1.495a4 4 0 0 0 .848.352C14.098 6 14.675 6 15.828 6h.374c2.632 0 3.949 0 4.804.77c.079.07.154.145.224.224c.77.855.77 2.172.77 4.804V14c0 3.771 0 5.657-1.172 6.828C19.657 22 17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172C2 19.657 2 17.771 2 14z" opacity=".5"/><path fill="currentColor" d="M20 6.238c0-.298-.005-.475-.025-.63a3 3 0 0 0-2.583-2.582C17.197 3 16.965 3 16.5 3H9.988c.116.104.247.234.462.45L11 4c.816.816 1.224 1.224 1.712 1.495a4 4 0 0 0 .849.352C14.098 6 14.675 6 15.829 6h.373c1.78 0 2.957 0 3.798.238"/><path fill="currentColor" fill-rule="evenodd" d="M12.25 10a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 0 1.5h-5a.75.75 0 0 1-.75-.75" clip-rule="evenodd"/></svg><span>VPS测评</span></span></div></article>
+</a></div></div>
 
 
 <footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">夜轻</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1">Stellar 1.33.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 <span class="totalcount">已发布 67 篇文章，</span><span class="post-count">总计 71.6k 字。</span><br><br><span class="totalcount"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">鄂ICP备2026013078号-1</a></span></div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
-<div class="widgets">
-
-
-
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%99%E7%A8%8B"><span class="toc-text">教程</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-MCSM"><span class="toc-text">安装 MCSM</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Docker"><span class="toc-text">安装 Docker</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Docker-%E9%95%9C%E5%83%8F"><span class="toc-text">Docker 镜像</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E6%8B%89%E5%8F%96%E9%95%9C%E5%83%8F"><span class="toc-text">拉取镜像</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#%E6%89%8B%E5%8A%A8%E6%9E%84%E5%BB%BA"><span class="toc-text">手动构建</span></a></li></ol></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E9%9D%A2%E6%9D%BF%E5%AE%9E%E4%BE%8B"><span class="toc-text">创建面板实例</span></a></li></ol></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>回到顶部</span></a><a class="buttom" onclick="util.scrollComment()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M8 10.5h8M8 14h5.5M17 3.338A9.95 9.95 0 0 0 12 2C6.477 2 2 6.477 2 12c0 1.6.376 3.112 1.043 4.453c.178.356.237.763.134 1.148l-.595 2.226a1.3 1.3 0 0 0 1.591 1.592l2.226-.596a1.63 1.63 0 0 1 1.149.133A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10c0-1.821-.487-3.53-1.338-5"/></svg><span>参与讨论</span></a></div></widget>
-</div></aside><div class='float-panel'>
+</aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
   </button>
@@ -712,30 +604,6 @@
 
 
 <!-- optional -->
-
-  <script type="module">
-  const el = document.querySelector('#comments #giscus');
-  util.viewportLazyload(el, load_discus, false);
-
-  function load_discus() {
-    if (!el) return;
-    try {
-        el.innerHTML = '';
-      } catch (error) {
-        console.error(error);
-      }
-      const script = document.createElement('script');
-      script.async = true;
-      for (const key of Object.keys(el.attributes)) {
-        const attr = el.attributes[key];
-        if (['class', 'id'].includes(attr.name) === false) {
-          script.setAttribute(attr.name, attr.value);
-        }
-      }
-      el.appendChild(script);
-  }
-</script>
-
 
 
 
