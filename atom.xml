@@ -327,7 +327,7 @@
     <link href="https://blog.yeqing.net/Windows-ToolDelta/"/>
     <id>https://blog.yeqing.net/Windows-ToolDelta/</id>
     <published>2025-12-02T15:12:59.000Z</published>
-    <updated>2026-04-06T21:20:32.000Z</updated>
+    <updated>2026-04-20T00:29:40.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文整理了在 Windows 上部署 ToolDelta 的完整流程, 包括 Python 3.12.9 的安装、pip 清华源配置、源码安装、pip 安装和 venv 安装 3 种方案, 以及首次启动、后续运行与更新方法. 文中还补充了 GitHub 测速卡住、FateArk 下载失败等常见问题的处理思路, 适合按图操作完成从零部署到正常启动的全过程.(AI摘要总结)&lt;/p&gt;</summary>
