@@ -6,7 +6,7 @@
   <link href="https://blog.yeqing.net/atom.xml" rel="self"/>
   
   <link href="https://blog.yeqing.net/"/>
-  <updated>2026-04-21T04:06:38.000Z</updated>
+  <updated>2026-04-21T07:39:34.000Z</updated>
   <id>https://blog.yeqing.net/</id>
   
   <author>
@@ -17,24 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>从0开始做oneman 搭建FOSSBilling + 切lxc小鸡教程</title>
+    <title>从0开始做 oneman, 搭建 FOSSBilling + 切 LXC 小鸡教程</title>
     <link href="https://blog.yeqing.net/FOSSBilling-oneman/"/>
     <id>https://blog.yeqing.net/FOSSBilling-oneman/</id>
     <published>2026-04-21T04:06:38.000Z</published>
-    <updated>2026-04-21T04:06:38.000Z</updated>
+    <updated>2026-04-21T07:39:34.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;使用到的项目:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
+    <summary type="html">&lt;p&gt;这篇文章记录了从 0 开始搭建 oneman 环境的流程, 重点包括使用 aaPanel 与 Cloudflare 部署 FOSSBilling, 配置 Nginx 与数据库, 设置权限, 计划任务和 SMTP 邮件, 并补充了 LXDAPI 插件的基础对接步骤.&lt;br&gt;适合想快速完成账单面板部署, 并为后续接入 LXC 销售能力做准备的用户参考. (AI摘要总结)&lt;/p&gt;</summary>
     
     
     
