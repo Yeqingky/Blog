@@ -6,7 +6,7 @@
   <link href="https://blog.yeqing.net/atom.xml" rel="self"/>
   
   <link href="https://blog.yeqing.net/"/>
-  <updated>2026-04-18T11:03:55.000Z</updated>
+  <updated>2026-04-21T04:06:38.000Z</updated>
   <id>https://blog.yeqing.net/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从0开始做oneman 搭建FOSSBilling + 切lxc小鸡教程</title>
+    <link href="https://blog.yeqing.net/FOSSBilling-oneman/"/>
+    <id>https://blog.yeqing.net/FOSSBilling-oneman/</id>
+    <published>2026-04-21T04:06:38.000Z</published>
+    <updated>2026-04-21T04:06:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;使用到的项目:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.yeqing.net/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://blog.yeqing.net/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="oneman" scheme="https://blog.yeqing.net/tags/oneman/"/>
+    
+  </entry>
   
   <entry>
     <title>[incudal] 美国凤凰城 SATA SSD 小杯鸡</title>
@@ -426,25 +457,6 @@
     
     
     <category term="cloudreve" scheme="https://blog.yeqing.net/tags/cloudreve/"/>
-    
-    <category term="教程" scheme="https://blog.yeqing.net/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Artalk评论系统自定义表情包</title>
-    <link href="https://blog.yeqing.net/Artalk-Custom-Emoji/"/>
-    <id>https://blog.yeqing.net/Artalk-Custom-Emoji/</id>
-    <published>2025-10-21T12:06:12.000Z</published>
-    <updated>2025-10-21T13:12:15.000Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Artalk 是一款轻量、简洁的评论系统, 默认提供的表情包内容太少, 通过自定义表情包 让评论区互动体验提高.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="教程" scheme="https://blog.yeqing.net/categories/%E6%95%99%E7%A8%8B/"/>
-    
     
     <category term="教程" scheme="https://blog.yeqing.net/tags/%E6%95%99%E7%A8%8B/"/>
     
