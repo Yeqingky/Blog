@@ -659,7 +659,7 @@
 
   
   <url>
-    <loc>https://blog.yeqing.net/tags/CDN/</loc>
+    <loc>https://blog.yeqing.net/tags/VPS/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -667,13 +667,6 @@
   
   <url>
     <loc>https://blog.yeqing.net/tags/%E6%B5%8B%E8%AF%84/</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yeqing.net/tags/VPS/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -730,6 +723,13 @@
   
   <url>
     <loc>https://blog.yeqing.net/tags/%E7%8B%90%E8%92%82%E4%BA%91/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yeqing.net/tags/CDN/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -848,14 +848,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yeqing.net/tags/DDNS-GO/</loc>
+    <loc>https://blog.yeqing.net/tags/Windows/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yeqing.net/tags/Windows/</loc>
+    <loc>https://blog.yeqing.net/tags/DDNS-GO/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -878,14 +878,14 @@
 
   
   <url>
-    <loc>https://blog.yeqing.net/categories/CDN%E6%B5%8B%E8%AF%84/</loc>
+    <loc>https://blog.yeqing.net/categories/VPS%E6%B5%8B%E8%AF%84/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.yeqing.net/categories/VPS%E6%B5%8B%E8%AF%84/</loc>
+    <loc>https://blog.yeqing.net/categories/CDN%E6%B5%8B%E8%AF%84/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
