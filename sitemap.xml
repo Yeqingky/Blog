@@ -687,6 +687,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yeqing.net/tags/Akile/</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yeqing.net/tags/AndNode/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -702,13 +709,6 @@
   
   <url>
     <loc>https://blog.yeqing.net/tags/UltraVPS/</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yeqing.net/tags/Akile/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
